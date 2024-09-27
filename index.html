@@ -12,10 +12,11 @@
     <div class="container">
     <header><h1>AI Funny Poem Generator 😂</h1></header>
     <main>
+        <div class="form-container">
       <form id="poem-generator">
         <input
           type="text"
-          placeholder="Enter a topic"
+          placeholder="Enter any topic to generate poem"
           autofocus
           required
           autocomplete="off"
@@ -24,7 +25,9 @@
         />
         <input type="submit" class="submit-button"/>
       </form>
-      <div class="poem" id="poem">
+      <div class="hint">e.g: Love, Food, Roses</div>
+    </div>
+      <div class="poem hidden" id="poem">
         
       </div>
     </main>
